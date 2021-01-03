@@ -1,0 +1,470 @@
+body {
+  line-height: 1.5;
+  font-family: 'Indie Flower', cursive !important;
+}
+
+.navbar {
+  background-color: #2c3e50;
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+  opacity: .9;
+}
+
+.navbar .navbar-brand {
+  font-size: 2.5rem;
+  letter-spacing: .5rem;
+}
+
+.navbar .custom-toggler {
+  border: none;
+}
+
+.navbar .custom-toggler:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.navbar .custom-toggler .custom-toggler-icon {
+  width: 2.5rem;
+}
+
+.navbar .navbar-nav {
+  margin-left: auto;
+}
+
+.navbar .navbar-nav .nav-item:not(:last-child) {
+  padding-right: 2rem;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: white !important;
+  font-size: 1.2rem;
+}
+
+#masthead {
+  background-color: #309b9b;
+  color: white;
+  height: 100vh;
+  padding-top: 8rem;
+}
+
+#masthead .custom-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+#masthead img {
+  width: 15rem;
+  margin-bottom: 3rem;
+}
+
+#masthead h2 {
+  margin-bottom: 2rem;
+  font-size: 3rem;
+}
+
+#masthead .divider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 2.3rem;
+}
+
+#masthead .divider .divider-line {
+  width: 7rem;
+  height: .3rem;
+  background-color: white;
+  border-radius: 5px;
+}
+
+#masthead .divider .divider-icon i {
+  color: white;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+#portfolio {
+  text-align: center;
+  padding-top: 5rem;
+}
+
+#portfolio h2 {
+  font-size: 3rem;
+}
+
+#portfolio .divider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 2.3rem;
+}
+
+#portfolio .divider .divider-line {
+  width: 7rem;
+  height: .3rem;
+  background-color: #2c3e50;
+  border-radius: 5px;
+}
+
+#portfolio .divider .divider-icon i {
+  color: #2c3e50;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+#portfolio p {
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+}
+
+#portfolio .custom-modal {
+  width: 25rem;
+  height: 17rem;
+  margin: auto;
+  margin-bottom: 2rem;
+  position: relative;
+  border-radius: .5rem;
+  padding: 0;
+}
+
+#portfolio .custom-modal .btn-modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+#portfolio .custom-modal .background {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: .5rem;
+  background-color: #309b9b;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  -webkit-transition: .5s all ease-in-out;
+  transition: .5s all ease-in-out;
+  cursor: pointer;
+}
+
+#portfolio .custom-modal .background:hover {
+  opacity: .8;
+}
+
+#portfolio .custom-modal .background i {
+  color: white;
+}
+
+#portfolio img {
+  width: 100%;
+  height: 100%;
+  border-radius: .5rem;
+}
+
+#about {
+  background-color: #309b9b;
+  color: white;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+#about .container {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+#about h2 {
+  font-size: 3rem;
+}
+
+#about p {
+  text-align: justify;
+  font-size: 1.5rem;
+  text-indent: 10%;
+}
+
+#about .divider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 2.3rem;
+}
+
+#about .divider .divider-line {
+  width: 7rem;
+  height: .3rem;
+  background-color: white;
+  border-radius: 5px;
+}
+
+#about .divider .divider-icon i {
+  color: white;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+#about .about-content {
+  margin: auto;
+  max-width: 60rem;
+}
+
+#contact {
+  font-size: 1.5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+#contact h2 {
+  font-size: 3rem;
+}
+
+#contact .divider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 2.3rem;
+}
+
+#contact .divider .divider-line {
+  width: 7rem;
+  height: .3rem;
+  background-color: #2c3e50;
+  border-radius: 5px;
+}
+
+#contact .divider .divider-icon i {
+  color: #2c3e50;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+#contact form .form-group {
+  margin: auto;
+  max-width: 40rem;
+}
+
+#contact form input {
+  border: 1.7px solid #2c3e50;
+  height: 4rem;
+  font-size: 1.5rem;
+  margin: 1.5rem 0;
+  -webkit-transition: .7 all ease-in-out;
+  transition: .7 all ease-in-out;
+}
+
+#contact form input:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#contact form ::-webkit-input-placeholder {
+  color: #2c3e50;
+  opacity: .7;
+  font-size: 1.5rem;
+}
+
+#contact form :-ms-input-placeholder {
+  color: #2c3e50;
+  opacity: .7;
+  font-size: 1.5rem;
+}
+
+#contact form ::-ms-input-placeholder {
+  color: #2c3e50;
+  opacity: .7;
+  font-size: 1.5rem;
+}
+
+#contact form ::placeholder {
+  color: #2c3e50;
+  opacity: .7;
+  font-size: 1.5rem;
+}
+
+#contact form textarea {
+  border: 1.7px solid #2c3e50;
+  border-radius: .25rem;
+  width: 100%;
+  display: block;
+  resize: none !important;
+  padding: 6px 12px !important;
+}
+
+#contact form .custom-textarea {
+  display: block;
+  width: 100%;
+}
+
+#contact form .btn {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  background-color: #2c3e50;
+  color: white;
+  margin: 2rem auto 1.5rem auto;
+  width: 15rem;
+  display: block;
+  font-size: 1.5rem;
+  -webkit-transition: all .7s ease-in-out;
+  transition: all .7s ease-in-out;
+}
+
+#contact form .btn:hover {
+  background-color: #309b9b;
+  width: 100%;
+}
+
+#info {
+  background-color: #2c3e50;
+  color: white;
+  padding-top: 4rem;
+  padding-bottom: 3.5rem;
+}
+
+#info h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+#info p {
+  font-size: 1.3rem;
+}
+
+#info a {
+  color: white;
+}
+
+#info i {
+  margin: 0 .5rem;
+  padding: .5rem;
+  -webkit-transition: all .7s ease-in-out;
+  transition: all .7s ease-in-out;
+}
+
+#info i:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.custom-modal {
+  line-height: 1.5;
+}
+
+.custom-modal .container {
+  padding-right: 2rem !important;
+}
+
+.custom-modal .modal-header {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 3rem;
+}
+
+.custom-modal .modal-header h2 {
+  font-size: 3rem;
+  padding-bottom: 1.5rem;
+}
+
+.custom-modal .divider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 2.3rem;
+}
+
+.custom-modal .divider .divider-line {
+  width: 7rem;
+  height: .3rem;
+  background-color: #2c3e50;
+  border-radius: 5px;
+}
+
+.custom-modal .divider .divider-icon i {
+  color: #2c3e50;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.custom-modal .modal-body {
+  padding: 0 2rem;
+}
+
+.custom-modal .modal-body p {
+  font-size: 1.3rem;
+  text-align: justify;
+}
+
+.custom-modal .modal-footer {
+  padding: 0 2rem 2rem 2rem;
+}
+
+.custom-modal .modal-footer .btn {
+  background-color: #2c3e50;
+  color: white;
+  margin: auto;
+  width: 10rem;
+  -webkit-transition: .7s all ease-in-out;
+  transition: .7s all ease-in-out;
+  font-size: 1.3rem;
+}
+
+.custom-modal .modal-footer .btn:hover {
+  width: 100%;
+  background-color: #309b9b;
+}
+/*# sourceMappingURL=main.css.map */
